@@ -30,7 +30,7 @@ exports.create = async (req, res) => {
   }
 };
 
-exports.update = async (req, res) => {
+exports.update  = async (req, res) => {
   try {
     const { id } = req.params;
     const { name, email, phone } = req.body;
